@@ -32,21 +32,28 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.uiFp_Image = new System.Windows.Forms.TableLayoutPanel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.UiTxt_Folder = new System.Windows.Forms.TextBox();
+            this.UiTxt_File = new System.Windows.Forms.TextBox();
+            this.btn_Load = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.Info;
-            this.pictureBox1.Location = new System.Drawing.Point(47, 31);
+            this.pictureBox1.Location = new System.Drawing.Point(287, 232);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(752, 838);
+            this.pictureBox1.Size = new System.Drawing.Size(988, 461);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(833, 31);
+            this.button1.Location = new System.Drawing.Point(728, 738);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(266, 54);
             this.button1.TabIndex = 1;
@@ -56,7 +63,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(833, 104);
+            this.button2.Location = new System.Drawing.Point(728, 859);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(266, 54);
             this.button2.TabIndex = 2;
@@ -66,7 +73,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(833, 195);
+            this.button3.Location = new System.Drawing.Point(1009, 738);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(266, 175);
             this.button3.TabIndex = 3;
@@ -74,11 +81,81 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.RGB);
             // 
+            // uiFp_Image
+            // 
+            this.uiFp_Image.ColumnCount = 1;
+            this.uiFp_Image.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 46.27451F));
+            this.uiFp_Image.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 53.72549F));
+            this.uiFp_Image.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.uiFp_Image.Location = new System.Drawing.Point(12, 232);
+            this.uiFp_Image.Name = "uiFp_Image";
+            this.uiFp_Image.RowCount = 4;
+            this.uiFp_Image.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 47.63314F));
+            this.uiFp_Image.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 52.36686F));
+            this.uiFp_Image.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 188F));
+            this.uiFp_Image.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 153F));
+            this.uiFp_Image.Size = new System.Drawing.Size(255, 680);
+            this.uiFp_Image.TabIndex = 4;
+            this.uiFp_Image.Paint += new System.Windows.Forms.PaintEventHandler(this.uiFp_Image_Paint);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("굴림", 15F);
+            this.label1.Location = new System.Drawing.Point(119, 38);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(73, 30);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "폴더";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("굴림", 15F);
+            this.label3.Location = new System.Drawing.Point(59, 93);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(133, 30);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "파일이름";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // UiTxt_Folder
+            // 
+            this.UiTxt_Folder.Location = new System.Drawing.Point(262, 38);
+            this.UiTxt_Folder.Name = "UiTxt_Folder";
+            this.UiTxt_Folder.Size = new System.Drawing.Size(795, 28);
+            this.UiTxt_Folder.TabIndex = 8;
+            this.UiTxt_Folder.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // UiTxt_File
+            // 
+            this.UiTxt_File.Location = new System.Drawing.Point(262, 95);
+            this.UiTxt_File.Name = "UiTxt_File";
+            this.UiTxt_File.Size = new System.Drawing.Size(932, 28);
+            this.UiTxt_File.TabIndex = 9;
+            // 
+            // btn_Load
+            // 
+            this.btn_Load.Location = new System.Drawing.Point(1121, 38);
+            this.btn_Load.Name = "btn_Load";
+            this.btn_Load.Size = new System.Drawing.Size(73, 28);
+            this.btn_Load.TabIndex = 10;
+            this.btn_Load.Text = "찾기";
+            this.btn_Load.UseVisualStyleBackColor = true;
+            this.btn_Load.Click += new System.EventHandler(this.button4_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1287, 925);
+            this.Controls.Add(this.btn_Load);
+            this.Controls.Add(this.UiTxt_File);
+            this.Controls.Add(this.UiTxt_Folder);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.uiFp_Image);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -87,6 +164,7 @@
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -96,6 +174,12 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.TableLayoutPanel uiFp_Image;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox UiTxt_Folder;
+        private System.Windows.Forms.TextBox UiTxt_File;
+        private System.Windows.Forms.Button btn_Load;
     }
 }
 
