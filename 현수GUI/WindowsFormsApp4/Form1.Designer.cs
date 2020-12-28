@@ -32,12 +32,12 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.uiFp_Image = new System.Windows.Forms.TableLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.UiTxt_Folder = new System.Windows.Forms.TextBox();
             this.UiTxt_File = new System.Windows.Forms.TextBox();
             this.btn_Load = new System.Windows.Forms.Button();
+            this.uiFp_Image = new System.Windows.Forms.FlowLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -80,23 +80,6 @@
             this.button3.Text = "컬러 변환";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.RGB);
-            // 
-            // uiFp_Image
-            // 
-            this.uiFp_Image.ColumnCount = 1;
-            this.uiFp_Image.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 46.27451F));
-            this.uiFp_Image.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 53.72549F));
-            this.uiFp_Image.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.uiFp_Image.Location = new System.Drawing.Point(12, 232);
-            this.uiFp_Image.Name = "uiFp_Image";
-            this.uiFp_Image.RowCount = 4;
-            this.uiFp_Image.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 47.63314F));
-            this.uiFp_Image.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 52.36686F));
-            this.uiFp_Image.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 188F));
-            this.uiFp_Image.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 153F));
-            this.uiFp_Image.Size = new System.Drawing.Size(255, 680);
-            this.uiFp_Image.TabIndex = 4;
-            this.uiFp_Image.Paint += new System.Windows.Forms.PaintEventHandler(this.uiFp_Image_Paint);
             // 
             // label1
             // 
@@ -145,17 +128,26 @@
             this.btn_Load.UseVisualStyleBackColor = true;
             this.btn_Load.Click += new System.EventHandler(this.button4_Click);
             // 
+            // uiFp_Image
+            // 
+            this.uiFp_Image.AutoScroll = true;
+            this.uiFp_Image.Location = new System.Drawing.Point(13, 201);
+            this.uiFp_Image.Margin = new System.Windows.Forms.Padding(4);
+            this.uiFp_Image.Name = "uiFp_Image";
+            this.uiFp_Image.Size = new System.Drawing.Size(267, 712);
+            this.uiFp_Image.TabIndex = 11;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1287, 925);
+            this.Controls.Add(this.uiFp_Image);
             this.Controls.Add(this.btn_Load);
             this.Controls.Add(this.UiTxt_File);
             this.Controls.Add(this.UiTxt_Folder);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.uiFp_Image);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -174,12 +166,12 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.TableLayoutPanel uiFp_Image;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox UiTxt_Folder;
         private System.Windows.Forms.TextBox UiTxt_File;
         private System.Windows.Forms.Button btn_Load;
+        private System.Windows.Forms.FlowLayoutPanel uiFp_Image;
     }
 }
 
