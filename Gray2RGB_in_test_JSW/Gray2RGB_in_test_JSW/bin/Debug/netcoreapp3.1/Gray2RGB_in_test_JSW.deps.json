@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Gray2RGB_in_test_JSW/1.0.0": {
+        "runtime": {
+          "Gray2RGB_in_test_JSW.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Gray2RGB_in_test_JSW/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

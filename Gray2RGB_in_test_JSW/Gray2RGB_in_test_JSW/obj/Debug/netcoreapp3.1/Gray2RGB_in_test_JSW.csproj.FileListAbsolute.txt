@@ -1,0 +1,30 @@
+C:\Users\재설치용 임시\source\repos\Gray2RGB_in_test_JSW\Gray2RGB_in_test_JSW\obj\Debug\netcoreapp3.1\Gray2RGB_in_test_JSW.csprojAssemblyReference.cache
+C:\Users\재설치용 임시\source\repos\Gray2RGB_in_test_JSW\Gray2RGB_in_test_JSW\obj\Debug\netcoreapp3.1\Gray2RGB_in_test_JSW.Form1.resources
+C:\Users\재설치용 임시\source\repos\Gray2RGB_in_test_JSW\Gray2RGB_in_test_JSW\obj\Debug\netcoreapp3.1\Gray2RGB_in_test_JSW.csproj.GenerateResource.cache
+C:\Users\재설치용 임시\source\repos\Gray2RGB_in_test_JSW\Gray2RGB_in_test_JSW\obj\Debug\netcoreapp3.1\Gray2RGB_in_test_JSW.AssemblyInfoInputs.cache
+C:\Users\재설치용 임시\source\repos\Gray2RGB_in_test_JSW\Gray2RGB_in_test_JSW\obj\Debug\netcoreapp3.1\Gray2RGB_in_test_JSW.AssemblyInfo.cs
+C:\Users\재설치용 임시\source\repos\Gray2RGB_in_test_JSW\Gray2RGB_in_test_JSW\obj\Debug\netcoreapp3.1\Gray2RGB_in_test_JSW.csproj.CoreCompileInputs.cache
+C:\Users\재설치용 임시\source\repos\Gray2RGB_in_test_JSW\Gray2RGB_in_test_JSW\bin\Debug\netcoreapp3.1\Gray2RGB_in_test_JSW.exe
+C:\Users\재설치용 임시\source\repos\Gray2RGB_in_test_JSW\Gray2RGB_in_test_JSW\bin\Debug\netcoreapp3.1\Gray2RGB_in_test_JSW.deps.json
+C:\Users\재설치용 임시\source\repos\Gray2RGB_in_test_JSW\Gray2RGB_in_test_JSW\bin\Debug\netcoreapp3.1\Gray2RGB_in_test_JSW.runtimeconfig.json
+C:\Users\재설치용 임시\source\repos\Gray2RGB_in_test_JSW\Gray2RGB_in_test_JSW\bin\Debug\netcoreapp3.1\Gray2RGB_in_test_JSW.runtimeconfig.dev.json
+C:\Users\재설치용 임시\source\repos\Gray2RGB_in_test_JSW\Gray2RGB_in_test_JSW\bin\Debug\netcoreapp3.1\Gray2RGB_in_test_JSW.dll
+C:\Users\재설치용 임시\source\repos\Gray2RGB_in_test_JSW\Gray2RGB_in_test_JSW\bin\Debug\netcoreapp3.1\Gray2RGB_in_test_JSW.pdb
+C:\Users\재설치용 임시\source\repos\Gray2RGB_in_test_JSW\Gray2RGB_in_test_JSW\obj\Debug\netcoreapp3.1\Gray2RGB_in_test_JSW.dll
+C:\Users\재설치용 임시\source\repos\Gray2RGB_in_test_JSW\Gray2RGB_in_test_JSW\obj\Debug\netcoreapp3.1\Gray2RGB_in_test_JSW.pdb
+C:\Users\재설치용 임시\source\repos\Gray2RGB_in_test_JSW\Gray2RGB_in_test_JSW\obj\Debug\netcoreapp3.1\Gray2RGB_in_test_JSW.genruntimeconfig.cache
+C:\Users\재설치용 임시\source\repos\새 폴더\semantic_segmentation_labeling_tool\Gray2RGB_in_test_JSW\Gray2RGB_in_test_JSW\bin\Debug\netcoreapp3.1\Gray2RGB_in_test_JSW.exe
+C:\Users\재설치용 임시\source\repos\새 폴더\semantic_segmentation_labeling_tool\Gray2RGB_in_test_JSW\Gray2RGB_in_test_JSW\bin\Debug\netcoreapp3.1\Gray2RGB_in_test_JSW.deps.json
+C:\Users\재설치용 임시\source\repos\새 폴더\semantic_segmentation_labeling_tool\Gray2RGB_in_test_JSW\Gray2RGB_in_test_JSW\bin\Debug\netcoreapp3.1\Gray2RGB_in_test_JSW.runtimeconfig.json
+C:\Users\재설치용 임시\source\repos\새 폴더\semantic_segmentation_labeling_tool\Gray2RGB_in_test_JSW\Gray2RGB_in_test_JSW\bin\Debug\netcoreapp3.1\Gray2RGB_in_test_JSW.runtimeconfig.dev.json
+C:\Users\재설치용 임시\source\repos\새 폴더\semantic_segmentation_labeling_tool\Gray2RGB_in_test_JSW\Gray2RGB_in_test_JSW\bin\Debug\netcoreapp3.1\Gray2RGB_in_test_JSW.dll
+C:\Users\재설치용 임시\source\repos\새 폴더\semantic_segmentation_labeling_tool\Gray2RGB_in_test_JSW\Gray2RGB_in_test_JSW\bin\Debug\netcoreapp3.1\Gray2RGB_in_test_JSW.pdb
+C:\Users\재설치용 임시\source\repos\새 폴더\semantic_segmentation_labeling_tool\Gray2RGB_in_test_JSW\Gray2RGB_in_test_JSW\obj\Debug\netcoreapp3.1\Gray2RGB_in_test_JSW.csprojAssemblyReference.cache
+C:\Users\재설치용 임시\source\repos\새 폴더\semantic_segmentation_labeling_tool\Gray2RGB_in_test_JSW\Gray2RGB_in_test_JSW\obj\Debug\netcoreapp3.1\Gray2RGB_in_test_JSW.Form1.resources
+C:\Users\재설치용 임시\source\repos\새 폴더\semantic_segmentation_labeling_tool\Gray2RGB_in_test_JSW\Gray2RGB_in_test_JSW\obj\Debug\netcoreapp3.1\Gray2RGB_in_test_JSW.csproj.GenerateResource.cache
+C:\Users\재설치용 임시\source\repos\새 폴더\semantic_segmentation_labeling_tool\Gray2RGB_in_test_JSW\Gray2RGB_in_test_JSW\obj\Debug\netcoreapp3.1\Gray2RGB_in_test_JSW.AssemblyInfoInputs.cache
+C:\Users\재설치용 임시\source\repos\새 폴더\semantic_segmentation_labeling_tool\Gray2RGB_in_test_JSW\Gray2RGB_in_test_JSW\obj\Debug\netcoreapp3.1\Gray2RGB_in_test_JSW.AssemblyInfo.cs
+C:\Users\재설치용 임시\source\repos\새 폴더\semantic_segmentation_labeling_tool\Gray2RGB_in_test_JSW\Gray2RGB_in_test_JSW\obj\Debug\netcoreapp3.1\Gray2RGB_in_test_JSW.csproj.CoreCompileInputs.cache
+C:\Users\재설치용 임시\source\repos\새 폴더\semantic_segmentation_labeling_tool\Gray2RGB_in_test_JSW\Gray2RGB_in_test_JSW\obj\Debug\netcoreapp3.1\Gray2RGB_in_test_JSW.dll
+C:\Users\재설치용 임시\source\repos\새 폴더\semantic_segmentation_labeling_tool\Gray2RGB_in_test_JSW\Gray2RGB_in_test_JSW\obj\Debug\netcoreapp3.1\Gray2RGB_in_test_JSW.pdb
+C:\Users\재설치용 임시\source\repos\새 폴더\semantic_segmentation_labeling_tool\Gray2RGB_in_test_JSW\Gray2RGB_in_test_JSW\obj\Debug\netcoreapp3.1\Gray2RGB_in_test_JSW.genruntimeconfig.cache
