@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -131,7 +132,100 @@ namespace WindowsFormsApp4
             MessageBox.Show("색상 반전 완료");
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
 
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        List<string> imgList = null;
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            FolderBrowserDialog fbd = new FolderBrowserDialog();
+            if(fbd.ShowDialog() == DialogResult.OK)
+            {
+                UiTxt_Folder.Text = fbd.SelectedPath;
+            }
+
+            this.uiFp_Image.Controls.Clear();
+
+            string[] files = Directory.GetFiles(fbd.SelectedPath);
+            imgList = files.Where(x => x.IndexOf(".jpg", StringComparison.OrdinalIgnoreCase) >= 0 || x.IndexOf(".png", StringComparison.OrdinalIgnoreCase) >= 0).Select(x => x).ToList();
+
+            for (int i = 0; i< imgList.Count; i++)
+            {
+                Image img = Image.FromFile(imgList[i]);
+
+                Panel pPanel = new Panel();
+                pPanel.BackColor = Color.Black;
+                pPanel.Size = new Size(150, 150);
+                pPanel.Padding = new System.Windows.Forms.Padding(4);
+
+                PictureBox pBox = new PictureBox();
+                pBox.BackColor = Color.DimGray;
+                pBox.Dock = DockStyle.Fill;
+                pBox.SizeMode = PictureBoxSizeMode.Zoom;
+                pBox.Image = img.GetThumbnailImage(150, 150, null, IntPtr.Zero);
+                pBox.Click += PBox_Click;
+                pBox.Tag = i.ToString();
+                pPanel.Controls.Add(pBox);
+
+                this.uiFp_Image.Controls.Add(pPanel);
+            }
+
+            if(imgList.Count > 0)
+            {
+                Panel pnl = this.uiFp_Image.Controls[0] as Panel;
+                PictureBox pb = pnl.Controls[0] as PictureBox;
+                UiTxt_File.Text = this.imgList[0];
+                PBox_Click(pb, null);
+            }
+            
+            
+        }
+
+        public void PBox_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < this.uiFp_Image.Controls.Count; i++)
+            {
+                if(this.uiFp_Image.Controls[i] is Panel)
+                {
+                    Panel pnl = this.uiFp_Image.Controls[i] as Panel;
+                    pnl.BackColor = Color.Black;
+                }
+            }
+
+            PictureBox pb = sender as PictureBox;
+            pb.Parent.BackColor = Color.Red;
+
+            int idx = Convert.ToInt32(pb.Tag.ToString());
+
+            Image img = Image.FromFile(imgList[idx]);
+            pictureBox1.Image = img;
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            UiTxt_File.Text = this.imgList[idx];
+        }
+
+        private void uiFp_Image_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }

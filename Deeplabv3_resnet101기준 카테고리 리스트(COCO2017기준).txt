@@ -6,3 +6,5 @@ CAT_LIST = [0, 5, 2, 16, 9, 44, 6, 3, 17, 62, 21, 67, 18, 19, 4,
  'person', 'pottedplant', 'sheep', 'sofa', 'train', 'tvmonitor']
 
 (COCO 2017±âÁØ->https://tech.amikelive.com/node-718/what-object-categories-labels-are-in-coco-dataset/)
+
+//fetch & pull test
